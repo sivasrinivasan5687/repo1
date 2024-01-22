@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template: repeat(2, 200px) / repeat(2, 200px);
+                justify-content: center;
+                align-content: center;
+                gap: 10px;
+                height: 660px;
+            }
+            .grid-item {
+                background-color: slateblue;
+                border: 1px solid black;
+            }
+            .col-1 {
+                border-radius: 50%;
+                border-bottom-right-radius: 5px;
+            }
+            .col-2 {
+                border-radius: 50%;
+                border-bottom-left-radius: 5px;
+            }
+            .col-3 {
+                border-radius: 50%;
+                border-top-right-radius: 5px;
+            }
+            .col-4 {
+                border-radius: 50%;
+                border-top-left-radius: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+            <div class="grid-item col-1"></div>
+            <div class="grid-item col-2"></div>
+            <div class="grid-item col-3"></div>
+            <div class="grid-item col-4"></div>
+        </div>
+    </body>
+</html>
