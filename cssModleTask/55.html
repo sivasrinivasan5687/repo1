@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            .d-grid {
+                display: grid;
+                grid-template: repeat(2, 250px) / repeat(5, 250px);
+                gap: 20px;
+                justify-content: center;
+                padding: 20px 20px;
+            }
+            .grid-item {
+                background-color: slateblue;
+                text-align: center;
+                box-sizing: border-box;
+                padding: 20px;
+                color: white;
+                font-family: arial;
+                transition: 0.3s ease-in-out;
+            }
+            .d-grid div:nth-child(even) {
+                background-color: rgba(16, 158, 40, 0.829);
+            }
+            .d-grid div:nth-child(even):hover {
+                background-color: rgb(233, 89, 101);
+            }
+            h1 {
+                margin-top: 70px;
+            }
+            .grid-item:hover {
+                background-color: rgb(233, 89, 101);
+            }
+        </style>
+    </head>
+    <body >
+        <h1 style="text-align: center">Projects</h1>
+        <div class="d-grid">
+            <div class="grid-item">
+                <h1>WEB DESIGN</h1>
+            </div>
+            <div class="grid-item">
+                <h1>CHAT BOTS</h1>
+            </div>
+            <div class="grid-item">
+                <h1>GAME DESIGN</h1>
+            </div>
+            <div class="grid-item">
+                <h1>TEXT ANALYSIS</h1>
+            </div>
+            <div class="grid-item">
+                <h1>JAVASCRIPY</h1>
+            </div>
+            <div class="grid-item">
+                <h1>CSS</h1>
+            </div>
+            <div class="grid-item">
+                <h1>HTML</h1>
+            </div>
+            <div class="grid-item">
+                <h1>BOOTSTRAP</h1>
+            </div>
+            <div class="grid-item">
+                <h1>REACT</h1>
+            </div>
+            <div class="grid-item">
+                <h1>NODE JS</h1>
+            </div>
+        </div>
+    </body>
+</html>
