@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            div {
+                font: 400 23px arial;
+            }
+            div::first-letter {
+                color: red;
+            }
+            div::first-line {
+                color: blue;
+            }
+            div::selection {
+                background-color: rgb(9, 8, 10);
+                color: white;
+            }
+            div::before {
+                content: "this is before content";
+                background-color: rgb(18, 194, 12);
+                padding: 10px;
+            }
+            div::after {
+                content: "this is after content";
+                background-color: rgb(164, 12, 194);
+                padding: 10px;
+            }
+            ::marker {
+                color: rgb(196, 45, 45);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>::first-line ::first-letter ::before ::after ::selection</h1>
+        <div class="pseudo">
+            <br /><br />
+            ipsum dolor, sit amet consectetur adipisicing elit. Ipsam illo at velit obcaecati, laudantium veritatis repellendus odit distinctio sint reprehenderit dignissimos quis, similique vel temporibus fuga natus dolore doloremque. Officia! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi ea mollitia minima quaerat natus
+            quisquam dicta reiciendis porro omnis provident ad magni, eius beatae animi earum eveniet est? Quis, soluta.
+            <br />
+            <br />
+        </div>
+
+        <h1>::marker selector</h1>
+        <ul>
+            <li>list 1</li>
+            <li>list 2</li>
+            <li>list 3</li>
+            <li>list 4</li>
+            <li>list 5</li>
+        </ul>
+    </body>
+</html>
