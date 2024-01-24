@@ -74,7 +74,11 @@ nav {
 .card {
   height: 100%;
 }
-
+.card-title{
+  max-height: 70px;
+  height: 70px;
+  overflow: hidden;
+}
 .card-title a {
   color: #2e2e2e;
 }
@@ -93,7 +97,7 @@ nav {
 }
 
 #view_btn {
-  background-color: #fa9c23;
+  background-color: #1bdf35;
   color: white;
 }
 
@@ -104,7 +108,7 @@ nav {
 
 .ratings {
   font-size: 1.2rem;
-  color: #fdcc0d;
+  color: #1bdf35;
 }
 
 #no_of_reviews {
@@ -145,7 +149,7 @@ footer {
 
 .rating-inner::before {
   content: '\f005 \f005 \f005 \f005 \f005';
-  color: #f8ce0b;
+  color: #1bdf35;
 }
 
 /* Product Details Page */
