@@ -95,6 +95,9 @@ nav {
 .card-text {
   font-size: 1.4rem;
 }
+.card-title a {
+  text-decoration: none;
+}
 
 #view_btn {
   background-color: #1bdf35;
